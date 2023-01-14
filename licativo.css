@@ -28,7 +28,7 @@ section {
     margin: auto;
     text-align: left;
     border-radius: 30px;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
 }
 
@@ -50,11 +50,13 @@ footer {
     width: 100%;
     margin-bottom: 36px;
     position: relative;
+    margin-top: 150px;
 
 }
 
 #texto {
     color: antiquewhite;
+    margin-top: 20px;
 }
 
 #leitura {
