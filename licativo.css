@@ -1,9 +1,21 @@
-
 body {
+    background: rgb(9, 0, 80);
+    max-width: 1000;
+    min-width: 500;
+    min-height: 500px;
+}
+
+main {
     background: rgb(9, 0, 80);
     font: 18pt normal arial;
     text-align: center;
-
+    max-width: 1000;
+    min-width: 500;
+    min-height: 500px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
 }
 
 section {
@@ -34,6 +46,8 @@ footer {
     bottom: 0px;
     width: 100%;
     margin-bottom: 36px;
+    position: fixed;
+
 }
 
 #texto {
@@ -65,3 +79,7 @@ a:link {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;}
+
+#logo {
+    width: 100%;
+}
