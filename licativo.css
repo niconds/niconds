@@ -3,6 +3,9 @@ body {
     max-width: 1000;
     min-width: 500;
     min-height: 500px;
+    max-height: 1000px;
+    height: 90%;
+    
 }
 
 main {
@@ -46,7 +49,7 @@ footer {
     bottom: 0px;
     width: 100%;
     margin-bottom: 36px;
-    position: fixed;
+    position: relative;
 
 }
 
