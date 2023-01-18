@@ -20,12 +20,13 @@ function calcula(){
 
     var consumoProporcional = Math.round(consumo / nLeituraCorretaeUltima * nLeituraErradaeAtual) //consumo proporcional
 
-    var leituraProporcional = Math.round(Number(consumoProporcional) + Number(leituraAtual)) //leitura proporcional
+    var leituraProporcional = Number(consumoProporcional) + Number(ultimaCorreta) //leitura proporcional
 
 
 
     texto.innerHTML = `Consumo proporcianal: ${consumoProporcional}`
     leitura.innerHTML = `Leitura proporcianal: ${leituraProporcional}`
+
 
 }
 
